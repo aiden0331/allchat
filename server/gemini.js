@@ -178,3 +178,4 @@ export async function getTextGeminiFinetune(prompt, temperature, modelName) {
     const response = result.response;
     return response.text();
 }
+
